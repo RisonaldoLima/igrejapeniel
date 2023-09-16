@@ -1,0 +1,59 @@
+   body {
+    background-image: url(IGREJA\ PENIEL.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top; /* Centralizar verticalmente na parte superior */
+    max-height: 50vh; /* Definir a altura máxima como 50% da altura da janela */
+   } 
+        
+.navbar {
+    background: transparent;   
+}
+
+.navbar-nav .nav-link {
+    color: rgb(0, 0, 0) !important; /* Texto branco */
+}
+
+.navbar-toggler-icon {
+    background-color: white; /* Ícone do botão de navegação branco */
+    
+}
+
+/* Estilo para o logo da empresa */
+.logo {
+    display: block;
+    margin: 100%; /* Centralizar a logo horizontalmente */
+    max-width: 100%; /* Garantir que a logo não exceda a largura máxima */
+    height: auto; /* Altura automática, preservando a proporção */
+    padding: 20px 0; /* Espaçamento superior e inferior para o logo */
+}
+
+/* Estilo para a classe .Semanal */
+.Semanal {
+    background-color: rgba(18, 18, 19, 0.884); /* Cor de fundo da div */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3); /* Sombra opcional */
+    animation: fadeIn 1s ease; /* Adicionando uma animação de fade-in */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centralizar horizontalmente */
+    justify-content: center; /* Centralizar verticalmente */
+}
+
+/* Estilo para o título h3 */
+h3 {
+    color: rgb(255, 255, 255); /* Cor do texto */
+    font-size: 1.5rem; /* Tamanho de fonte responsivo */
+    margin: 5px;
+}
+
+/* Definindo a animação de fade-in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
